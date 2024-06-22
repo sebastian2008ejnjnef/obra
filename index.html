@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Multimedia</title>
+    <style>
+        body {
+            background: url('https://p4.wallpaperbetter.com/wallpaper/613/126/432/memes-painting-hd-wallpaper-preview.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            border: 3px solid #4CAF50;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            width: 50%;
+            max-width: 500px;
+            margin: 20px;
+            position: relative;
+        }
+        .video-container, .text-container {
+            margin: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 450px;
+            border: none;
+            border-radius: 10px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+        }
+        .text-container {
+            margin-top: 10px;
+        }
+        .text-container p {
+            margin: 0;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid #4CAF50;
+            background-color: #fff;
+        }
+        .marquee-container {
+            width: 100%;
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-top: 2px solid #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            margin-top: 20px;
+            padding: 10px 0;
+        }
+        .marquee {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 10s linear infinite;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <h2>Video de la obra del sebos</h2>
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fwatch%2F%3Fv%3D3170293603248608&show_text=false" allowfullscreen></iframe>
+        </div>
+        <div class="marquee-container">
+            <div class="marquee">LA MEJOR PELICULA DEL CINE MEXICANO LA MAMI :]</div>
+        </div>
+        <div class="text-container">
+            <h3>LA MERA NETA =></h3>
+            <p>NO TUVE TIEMPO,NO TENGO JUGUETES Y NO ESTOY MUCHO TEMPO EN MI CASA MEJOR LE PUSE UN PELICULON AQUI PARA Q NO SE ABURRA,ESTOY CONTANDO Q NO TOME EN CUENTA SOLO LAS OBRAS MAS SIN ENCAMBIO MUCHO LAS PAGINAS WEB,NO HICE ESTA POR Q LA VERDAD NO TENGO MUICHO TIEMPO PARA HACER TITERES Y MUCHO MENOS PARA HACER UNA OBRA,UNA DISCULPA =<</p>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGzdrgbJwE75uJidajIhF_KbaP2tSaXXjAsA&s" alt="Foto Izquierda">
+        <img src="https://caracoltv.brightspotcdn.com/dims4/default/ed48b0d/2147483647/strip/true/crop/750x422+0+59/resize/1200x675!/quality/90/?url=http%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2F0a%2Fb7%2F2ea371384b348de6411147cd4056%2Fside-cat.png" alt="Foto Derecha">
+    </div>
+</body>
+</html>
